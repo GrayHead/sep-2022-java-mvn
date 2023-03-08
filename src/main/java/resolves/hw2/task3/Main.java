@@ -1,9 +1,10 @@
 package resolves.hw2.task3;
 
 
-import lesson2.task3.enums.Gender;
-import lesson2.task3.models.Skill;
-import lesson2.task3.models.User;
+
+import resolves.hw2.task3.enums.Gender;
+import resolves.hw2.task3.models.Skill;
+import resolves.hw2.task3.models.User;
 
 import java.util.ArrayList;
 

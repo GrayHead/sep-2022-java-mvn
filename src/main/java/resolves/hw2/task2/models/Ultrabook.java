@@ -1,10 +1,10 @@
 package resolves.hw2.task2.models;
 
-import lesson2.task2.enums.CpuEnum;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
+import resolves.hw2.task2.enums.CpuEnum;
 
 @Getter
 @Setter

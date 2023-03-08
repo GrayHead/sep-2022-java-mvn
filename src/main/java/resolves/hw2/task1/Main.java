@@ -1,8 +1,9 @@
 package resolves.hw2.task1;
 
-import lesson2.task1.models.Address;
-import lesson2.task1.models.Company;
-import lesson2.task1.models.User;
+
+import resolves.hw2.task1.models.Address;
+import resolves.hw2.task1.models.Company;
+import resolves.hw2.task1.models.User;
 
 public class Main {
     public static void main(String[] args) {

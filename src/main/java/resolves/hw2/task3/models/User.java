@@ -1,9 +1,9 @@
 package resolves.hw2.task3.models;
 
-import lesson2.task3.enums.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import resolves.hw2.task3.enums.Gender;
 
 import java.util.ArrayList;
 
