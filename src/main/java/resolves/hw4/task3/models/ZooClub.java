@@ -130,28 +130,39 @@ public class ZooClub {
             System.out.print("Зробіть свій вибір: ");
             String choice = this.in.next();
 
+//            switch (choice) {
+//                case "1":
+//                    this.addPerson();
+//                    break;
+//                case "2":
+//                    this.addPetToPerson();
+//                    break;
+//
+//                case "3":
+//                    this.deletePet();
+//                    break;
+//                case "4":
+//                    this.delPerson();
+//                    break;
+//                case "5":
+//                    this.delPetsFromClub();
+//                    break;
+//                case "6":
+//                    this.showZooClub();
+//                    break;
+//                case "9":
+//                    return;
+//            }
             switch (choice) {
-                case "1":
-                    this.addPerson();
-                    break;
-                case "2":
-                    this.addPetToPerson();
-                    break;
-
-                case "3":
-                    this.deletePet();
-                    break;
-                case "4":
-                    this.delPerson();
-                    break;
-                case "5":
-                    this.delPetsFromClub();
-                    break;
-                case "6":
-                    this.showZooClub();
-                    break;
-                case "9":
+                case "1" -> this.addPerson();
+                case "2" -> this.addPetToPerson();
+                case "3" -> this.deletePet();
+                case "4" -> this.delPerson();
+                case "5" -> this.delPetsFromClub();
+                case "6" -> this.showZooClub();
+                case "9" -> {
                     return;
+                }
             }
         }
     }
